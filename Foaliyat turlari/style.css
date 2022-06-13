@@ -1,0 +1,51 @@
+.page {
+  position: absolute;
+  width: 1200px;
+  margin: 10px;
+  left: 500px;
+  top: 100px;
+}
+
+.page .section img {
+  width: 100%;
+}
+
+.page .section1 {
+  width: 1200px;
+  background-color: #d1c9d1;
+  border: 2px solid green;
+  margin: 10px;
+}
+
+.page .section2 {
+  width: 1200px;
+  background-color: #d1c9d1;
+  border: 2px solid green;
+  margin: 10px;
+}
+
+.page .section3 {
+  width: 1200px;
+  background-color: #d1c9d1;
+  border: 2px solid green;
+  margin: 10px;
+}
+
+.page .section4 {
+  width: 1200px;
+  background-color: #d1c9d1;
+  border: 2px solid green;
+  margin: 10px;
+}
+
+.page .section5 {
+  width: 1200px;
+  border: 2px solid #d1c9d1;
+  margin: 10px;
+}
+
+.page .section5 li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+}
+/*# sourceMappingURL=style.css.map */

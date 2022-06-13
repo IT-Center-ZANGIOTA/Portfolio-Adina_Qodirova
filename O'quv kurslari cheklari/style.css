@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    background-color: #ECF5F0;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 250px;
+    border: 2px double #FDFEFE;
+    padding: 16px;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    margin: 12px;
+}
+
+.box-title {
+    font-size: 30px;
+    margin: 12px 0;
+}
+
+.shartlar {
+    display: flex;
+}
+
+.shart {
+    margin-right: 3rem;
+}
+
+.shart1 {
+    margin: 0;
+    font-size: 0.6rem;
+}
+
+.shart-time {
+    font-size: 0.5rem;
+    margin: 0;
+}
+
+.shart-duration {
+    font-weight: bold;
+    margin: 0;
+    font-size: 25px;
+}
+
+.price b {
+    font-size: 30px;
+}
+
+.chiziq {
+    color: greenyellow
+}

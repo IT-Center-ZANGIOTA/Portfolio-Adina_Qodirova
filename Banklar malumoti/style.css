@@ -1,0 +1,54 @@
+.wrapper {
+    width: 900px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.date {
+    opacity: 0.7;
+}
+
+.date a {
+    color: burlywood;
+    text-decoration: none;
+}
+
+.date a:hover {
+    color: red;
+}
+
+.italian-text a {
+    text-decoration: none;
+}
+
+.italian-text a:hover {
+    color: red;
+}
+
+.main-text a {
+    text-decoration: none;
+}
+
+.main-text a:hover {
+    color: red;
+}
+
+.fonli-text {
+    display: inline-block;
+    margin-left: .5rem;
+    border-left: 3px solid #a9f5ff;
+    background-color: #E7FCFF;
+    line-height: 2rem;
+    width: 100%;
+    padding-left: 1rem;
+    vertical-align: middle;
+}
+
+.jadval {
+    width: 100px;
+    margin: auto;
+}
+
+.italian-text a:hover {
+    color: red;
+}
