@@ -11,7 +11,6 @@
   height: 7650px;
   background: #F9F9F9;
 }
-
 .section .section1 {
   position: absolute;
   width: 1116px;
@@ -19,57 +18,44 @@
   left: 355px;
   top: 22px;
 }
-
 .section .section1 .div0 {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 171px;
   height: 77px;
   left: -100px;
   top: 52px;
 }
-
 .section .section1 .div0 img {
   position: relative;
   margin: 10px;
 }
-
 .section .section1 .div1 {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 1371px;
   height: 17px;
   left: 700px;
   top: 62px;
 }
-
 .section .section1 .div1 p {
   position: relative;
   margin: 40px;
   font-size: 35px;
 }
-
 .section .section1 .div2 {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 1371px;
   height: 17px;
   left: 600px;
   top: 12px;
 }
-
 .section .section1 .div2 p {
   position: relative;
   margin: 40px;
   font-size: 30px;
 }
-
 .section .section1 .div3 {
   position: absolute;
   width: 1371px;
@@ -77,12 +63,10 @@
   left: 480px;
   top: -80px;
 }
-
 .section .section1 .div3 img {
   position: relative;
   margin: 140px;
 }
-
 .section .section2 {
   position: relative;
   width: 1116px;
@@ -90,7 +74,6 @@
   left: 0px;
   top: -270px;
 }
-
 .section .section2 img {
   position: relative;
   width: 2520px;
@@ -98,7 +81,6 @@
   left: 0px;
   top: 500px;
 }
-
 .section .section2 p {
   position: absolute;
   margin-top: -190px;
@@ -106,7 +88,6 @@
   font-size: 85px;
   color: #F9F9F9;
 }
-
 .section .section2 button {
   position: absolute;
   width: 400px;
@@ -117,7 +98,6 @@
   color: #fff;
   background-color: cornflowerblue;
 }
-
 .section .section2 .box1 {
   position: absolute;
   width: 20px;
@@ -128,7 +108,6 @@
   opacity: 0.4;
   border-radius: 50px;
 }
-
 .section .section2 .box2 {
   position: absolute;
   width: 20px;
@@ -139,7 +118,6 @@
   opacity: 0.4;
   border-radius: 50px;
 }
-
 .section .section2 .box3 {
   position: absolute;
   width: 20px;
@@ -149,7 +127,6 @@
   background: white;
   border-radius: 50px;
 }
-
 .section .section2 .box4 {
   position: absolute;
   width: 20px;
@@ -160,7 +137,6 @@
   opacity: 0.4;
   border-radius: 50px;
 }
-
 .section .section3 {
   position: absolute;
   width: 2520px;
@@ -168,7 +144,6 @@
   left: 0px;
   top: 780px;
 }
-
 .section .section3 img {
   position: absolute;
   width: 2520px;
@@ -176,7 +151,6 @@
   left: 0px;
   top: 780px;
 }
-
 .section .section3 h2 {
   position: absolute;
   width: 445px;
@@ -186,14 +160,13 @@
   font-size: 44px;
   color: #BDBDBD;
 }
-
 .section .section3 h3 {
   position: absolute;
   width: 663px;
   height: 47px;
   left: 407px;
   top: 983px;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
@@ -201,7 +174,6 @@
   /* #333333 */
   color: #333333;
 }
-
 .section .section3 .box0 {
   position: absolute;
   width: 1900px;
@@ -209,7 +181,6 @@
   top: 1120px;
   left: 300px;
 }
-
 .section .section3 .box0 .box1 {
   position: absolute;
   width: 600px;
@@ -217,7 +188,6 @@
   top: 0px;
   left: 0px;
 }
-
 .section .section3 .box0 .box1 img {
   position: absolute;
   width: 600px;
@@ -225,7 +195,6 @@
   top: 0px;
   left: 0px;
 }
-
 .section .section3 .box0 .box2 {
   position: absolute;
   width: 600px;
@@ -233,7 +202,6 @@
   top: 0px;
   left: 655px;
 }
-
 .section .section3 .box0 .box2 img {
   position: absolute;
   width: 600px;
@@ -241,7 +209,6 @@
   top: 0px;
   left: 0px;
 }
-
 .section .section3 .box0 .box3 {
   position: absolute;
   width: 600px;
@@ -249,7 +216,6 @@
   top: 0px;
   left: 1300px;
 }
-
 .section .section3 .box0 .box3 img {
   position: absolute;
   width: 600px;
@@ -257,7 +223,6 @@
   top: 0px;
   left: 0px;
 }
-
 .section .section3 .box0 .box4 {
   position: absolute;
   width: 600px;
@@ -265,7 +230,6 @@
   bottom: 0px;
   left: 0px;
 }
-
 .section .section3 .box0 .box4 img {
   position: absolute;
   width: 600px;
@@ -273,7 +237,6 @@
   top: 0px;
   left: 0px;
 }
-
 .section .section3 .box0 .box5 {
   position: absolute;
   width: 600px;
@@ -281,7 +244,6 @@
   bottom: 0px;
   left: 655px;
 }
-
 .section .section3 .box0 .box5 img {
   position: absolute;
   width: 600px;
@@ -289,7 +251,6 @@
   top: 0px;
   left: 0px;
 }
-
 .section .section3 .box0 .box6 {
   position: absolute;
   width: 600px;
@@ -297,7 +258,6 @@
   bottom: 0px;
   left: 1300px;
 }
-
 .section .section3 .box0 .box6 img {
   position: absolute;
   width: 600px;
@@ -305,7 +265,6 @@
   top: 0px;
   left: 0px;
 }
-
 .section .section4 .p1 {
   position: absolute;
   width: 300px;
@@ -313,12 +272,10 @@
   top: 3020px;
   left: 500px;
 }
-
 .section .section4 .p1 p {
   font-size: 60px;
   color: #BDBDBD;
 }
-
 .section .section4 .p2 {
   position: absolute;
   width: 700px;
@@ -327,19 +284,16 @@
   left: 500px;
   font-size: 100px;
 }
-
 .section .section4 .p2 h4 {
   position: absolute;
   top: -150px;
 }
-
 .section .section4 .p2 h5 {
   position: absolute;
   top: -50px;
   font-size: 103px;
-  color: #45678a;
+  color: rgb(69, 103, 138);
 }
-
 .section .section4 .p3 {
   position: absolute;
   width: 800px;
@@ -349,7 +303,6 @@
   font-size: 35px;
   line-height: 55px;
 }
-
 .section .section4 .box1 {
   position: absolute;
   width: 350px;
@@ -358,11 +311,9 @@
   left: 1500px;
   background-color: #BDBDBD;
 }
-
 .section .section4 .box1 .pp {
   position: absolute;
 }
-
 .section .section4 .box1 .pp p {
   position: absolute;
   top: 10px;
@@ -370,21 +321,18 @@
   margin: 40px;
   font-size: 90px;
 }
-
 .section .section4 .box1 p {
   position: absolute;
   top: 150px;
   left: 60px;
   font-size: 25px;
 }
-
 .section .section4 .box1 u {
   position: absolute;
   top: 270px;
   left: 60px;
   color: blue;
 }
-
 .section .section4 .box2 {
   position: absolute;
   width: 350px;
@@ -393,11 +341,9 @@
   left: 1950px;
   background-color: #BDBDBD;
 }
-
 .section .section4 .box2 .pp {
   position: absolute;
 }
-
 .section .section4 .box2 .pp p {
   position: absolute;
   top: 10px;
@@ -405,21 +351,18 @@
   margin: 40px;
   font-size: 90px;
 }
-
 .section .section4 .box2 p {
   position: absolute;
   top: 150px;
   left: 60px;
   font-size: 25px;
 }
-
 .section .section4 .box2 u {
   position: absolute;
   top: 270px;
   left: 60px;
   color: blue;
 }
-
 .section .section4 .box3 {
   position: absolute;
   width: 350px;
@@ -428,11 +371,9 @@
   left: 1500px;
   background-color: #BDBDBD;
 }
-
 .section .section4 .box3 .pp {
   position: absolute;
 }
-
 .section .section4 .box3 .pp p {
   position: absolute;
   top: 10px;
@@ -440,21 +381,18 @@
   margin: 40px;
   font-size: 90px;
 }
-
 .section .section4 .box3 p {
   position: absolute;
   top: 150px;
   left: 60px;
   font-size: 25px;
 }
-
 .section .section4 .box3 u {
   position: absolute;
   top: 270px;
   left: 60px;
   color: blue;
 }
-
 .section .section4 .box4 {
   position: absolute;
   width: 350px;
@@ -463,11 +401,9 @@
   left: 1950px;
   background-color: dodgerblue;
 }
-
 .section .section4 .box4 .pp {
   position: absolute;
 }
-
 .section .section4 .box4 .pp p {
   position: absolute;
   top: 10px;
@@ -475,21 +411,18 @@
   margin: 40px;
   font-size: 90px;
 }
-
 .section .section4 .box4 p {
   position: absolute;
   top: 150px;
   left: 60px;
   font-size: 25px;
 }
-
 .section .section4 .box4 u {
   position: absolute;
   top: 270px;
   left: 60px;
   color: blue;
 }
-
 .section .section5 {
   position: absolute;
   width: 2520;
@@ -497,7 +430,6 @@
   top: 4200px;
   left: 0px;
 }
-
 .section .section5 .box {
   position: absolute;
   width: 2520px;
@@ -506,7 +438,6 @@
   left: 0px;
   background-color: #EBEBEB;
 }
-
 .section .section5 .p1 {
   position: absolute;
   width: 500px;
@@ -515,67 +446,57 @@
   color: #BDBDBD;
   font-size: 50px;
 }
-
 .section .section5 .p2 {
   position: absolute;
   width: 600px;
   top: 300px;
   left: 500px;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 900;
   font-size: 68px;
   line-height: 69px;
 }
-
 .section .section5 .img1 {
   position: absolute;
   top: 450px;
   left: 500px;
 }
-
 .section .section5 .img2 {
   position: absolute;
   top: 450px;
   left: 500px;
 }
-
 .section .section5 .img3 {
   position: absolute;
   top: 450px;
   left: 800px;
 }
-
 .section .section5 .img4 {
   position: absolute;
   top: 450px;
   left: 800px;
 }
-
 .section .section5 .img5 {
   position: absolute;
   top: 450px;
   left: 1100px;
 }
-
 .section .section5 .img6 {
   position: absolute;
   top: 450px;
   left: 1100px;
 }
-
 .section .section5 .img7 {
   position: absolute;
   top: 450px;
   left: 1400px;
 }
-
 .section .section5 .img8 {
   position: absolute;
   top: 450px;
   left: 1400px;
 }
-
 .section .section5 .box1 {
   position: absolute;
   width: 15px;
@@ -586,7 +507,6 @@
   opacity: 0.4;
   border-radius: 50%;
 }
-
 .section .section5 .box2 {
   position: absolute;
   width: 15px;
@@ -597,7 +517,6 @@
   opacity: 0.4;
   border-radius: 50%;
 }
-
 .section .section5 .box3 {
   position: absolute;
   width: 15px;
@@ -607,7 +526,6 @@
   background: #005FA3;
   border-radius: 50%;
 }
-
 .section .section5 .box4 {
   position: absolute;
   width: 15px;
@@ -618,7 +536,6 @@
   opacity: 0.4;
   border-radius: 50%;
 }
-
 .section .section5 .img9 {
   position: absolute;
   width: 100px;
@@ -626,7 +543,6 @@
   left: 1595px;
   top: 736px;
 }
-
 .section .section5 .img10 {
   position: absolute;
   width: 100px;
@@ -634,7 +550,6 @@
   left: 1655px;
   top: 736px;
 }
-
 .section .section6 {
   position: absolute;
   width: 2520px;
@@ -642,7 +557,6 @@
   top: 5300px;
   left: 0px;
 }
-
 .section .section6 .p1 {
   position: absolute;
   width: 500px;
@@ -651,14 +565,13 @@
   color: #BDBDBD;
   font-size: 50px;
 }
-
 .section .section6 .p2 {
   position: absolute;
   width: 1633px;
   height: 47px;
   left: 497px;
   top: 269px;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 900;
   font-size: 68px;
@@ -666,7 +579,6 @@
   /* #333333 */
   color: #333333;
 }
-
 .section .section6 .box0 {
   position: absolute;
   width: 1570px;
@@ -675,42 +587,39 @@
   top: 420px;
   background: #EBEBEB;
 }
-
 .section .section6 .p3 {
   position: absolute;
   width: 1400px;
   height: 150px;
   left: 600px;
   top: 471px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 28px;
   line-height: 35px;
   color: #000000;
 }
-
 .section .section6 .p4 {
   position: absolute;
   width: 500px;
   height: 18px;
   left: 915px;
   top: 778px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 900;
   font-size: 28px;
   line-height: 25px;
   color: #000000;
 }
-
 .section .section6 .p5 {
   position: absolute;
   width: 525px;
   height: 18px;
   left: 915px;
   top: 826px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -718,7 +627,6 @@
   /* #4F4F4F */
   color: #4F4F4F;
 }
-
 .section .section6 .img1 {
   position: absolute;
   width: 180px;
@@ -727,7 +635,6 @@
   top: 721px;
   background: url(ava.jpg), #EBEBEB;
 }
-
 .section .section6 .img1 img {
   position: absolute;
   width: 180px;
@@ -736,7 +643,6 @@
   top: 0px;
   border-radius: 50%;
 }
-
 .section .section6 .box1 {
   position: absolute;
   width: 15px;
@@ -747,7 +653,6 @@
   opacity: 0.4;
   border-radius: 50%;
 }
-
 .section .section6 .box2 {
   position: absolute;
   width: 15px;
@@ -758,7 +663,6 @@
   opacity: 0.4;
   border-radius: 50%;
 }
-
 .section .section6 .box3 {
   position: absolute;
   width: 15px;
@@ -768,7 +672,6 @@
   background: #005FA3;
   border-radius: 50%;
 }
-
 .section .section6 .box4 {
   position: absolute;
   width: 15px;
@@ -779,7 +682,6 @@
   opacity: 0.4;
   border-radius: 50%;
 }
-
 .section .section6 .img2 {
   position: absolute;
   width: 100px;
@@ -787,7 +689,6 @@
   left: 1935px;
   top: 1136px;
 }
-
 .section .section6 .img3 {
   position: absolute;
   width: 100px;
@@ -795,7 +696,6 @@
   left: 1995px;
   top: 1136px;
 }
-
 .section .section7 {
   position: absolute;
   width: 2520px;
@@ -803,7 +703,6 @@
   top: 6600px;
   left: 0px;
 }
-
 .section .section7 .img1 {
   position: relative;
   width: 2520px;
@@ -811,7 +710,6 @@
   left: 0px;
   top: 0px;
 }
-
 .section .section7 .img1 img {
   position: absolute;
   width: 2520px;
@@ -819,20 +717,17 @@
   left: 0px;
   top: 0px;
 }
-
 .section .section7 .img2 {
   position: absolute;
   left: 610px;
   top: 565px;
   bottom: 6.86%;
 }
-
 .section .section7 .img2 img {
   position: absolute;
   left: 0px;
   top: 0px;
 }
-
 .section .section7 .img3 {
   position: absolute;
   width: 39.42px;
@@ -840,7 +735,6 @@
   left: 860px;
   top: 565px;
 }
-
 .section .section7 .img3 img {
   position: absolute;
   width: 39.42px;
@@ -848,14 +742,13 @@
   left: 0px;
   top: 0px;
 }
-
 .section .section7 .p1 {
   position: absolute;
   width: 445px;
   height: 47px;
   left: 607px;
   top: 228px;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 900;
   font-size: 58px;
@@ -863,14 +756,13 @@
   /* White */
   color: #FFFFFF;
 }
-
 .section .section7 .p2 {
   position: absolute;
   width: 445px;
   height: 43px;
   left: 605px;
   top: 355px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -878,14 +770,13 @@
   /* White */
   color: #FFFFFF;
 }
-
 .section .section7 .p3 {
   position: absolute;
   width: 184px;
   height: 29px;
   left: 635px;
   top: 568px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 21px;
@@ -894,14 +785,13 @@
   /* White */
   color: #FFFFFF;
 }
-
 .section .section7 .p4 {
   position: absolute;
   width: 155px;
   height: 29px;
   left: 909px;
   top: 565px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 21px;
@@ -910,14 +800,13 @@
   /* White */
   color: #FFFFFF;
 }
-
 .section .section7 .p5 {
   position: absolute;
   width: 125px;
   height: 16px;
   left: 1375px;
   top: 251px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -925,14 +814,13 @@
   /* White */
   color: #FFFFFF;
 }
-
 .section .section7 .p6 {
   position: absolute;
   width: 125px;
   height: 21px;
   left: 1375px;
   top: 302px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 25px;
@@ -940,14 +828,13 @@
   /* #BDBDBD */
   color: #BDBDBD;
 }
-
 .section .section7 .p7 {
   position: absolute;
   width: 125px;
   height: 16px;
   left: 1660px;
   top: 251px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -955,14 +842,13 @@
   /* White */
   color: #FFFFFF;
 }
-
 .section .section7 .p8 {
   position: absolute;
   width: 125px;
   height: 21px;
   left: 1660px;
   top: 302px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 21px;
@@ -970,14 +856,13 @@
   /* #BDBDBD */
   color: #BDBDBD;
 }
-
 .section .section7 .p9 {
   position: absolute;
   width: 125px;
   height: 16px;
   left: 1379px;
   top: 453px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -985,14 +870,13 @@
   /* White */
   color: #FFFFFF;
 }
-
 .section .section7 .p10 {
   position: absolute;
   width: 255px;
   height: 21px;
   left: 1380px;
   top: 500px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 21px;
@@ -1000,7 +884,6 @@
   /* #BDBDBD */
   color: #BDBDBD;
 }
-
 .section .section7 .line1 {
   position: absolute;
   width: 205px;
@@ -1009,7 +892,6 @@
   top: 378px;
   border: 1px solid #FFFFFF;
 }
-
 .section .section7 .line2 {
   position: absolute;
   width: 205px;
@@ -1018,7 +900,6 @@
   top: 378px;
   border: 1px solid #FFFFFF;
 }
-
 .section .section7 .line3 {
   position: absolute;
   width: 540px;
@@ -1027,7 +908,6 @@
   top: 599px;
   border: 1px solid #FFFFFF;
 }
-
 .section .section7 button {
   position: absolute;
   width: 390px;
@@ -1037,14 +917,13 @@
   /* Accent */
   background: #005FA3;
 }
-
 .section .section7 button p {
   position: absolute;
   width: 434px;
   height: 22px;
   left: -20px;
   top: 10px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -1053,7 +932,6 @@
   /* White */
   color: #FFFFFF;
 }
-
 .section .section8 {
   position: absolute;
   width: 2520px;
@@ -1061,14 +939,13 @@
   left: 0px;
   bottom: 0px;
 }
-
 .section .section8 .p1 {
   position: absolute;
   width: 574px;
   height: 20px;
   left: 500px;
   top: 60px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
@@ -1076,14 +953,13 @@
   /* identical to box height */
   color: #000000;
 }
-
 .section .section8 .p2 {
   position: absolute;
   width: 401px;
   height: 20px;
   left: 1400px;
   top: 60px;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
@@ -1091,5 +967,4 @@
   /* identical to box height */
   text-align: right;
   color: #000000;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
