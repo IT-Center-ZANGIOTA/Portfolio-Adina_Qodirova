@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Animated Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A colorful Calculator">
+    <meta name="keywords" content="Super Calculator">
+    <meta name="author" content="Hassaan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="Calculator" name="calc">
+        <input type="text" class="Text" name="tex" readonly="">
+        <spam class="btn clear" onclick="document.calc.tex.value = ''">Clear</spam>
+        <spam class="btn A" onclick="document.calc.tex.value += '/'">÷</spam>
+        <spam class="btn A" onclick="document.calc.tex.value += '*'">×</spam>
+
+
+
+        <spam class="btn key" onclick="document.calc.tex.value += '7'">7</spam>
+        <spam class="btn key" onclick="document.calc.tex.value += '8'">8</spam>
+        <spam class="btn key" onclick="document.calc.tex.value += '9'">9</spam>
+        <spam class="btn A" onclick="document.calc.tex.value += '-'">-</spam>
+
+        <spam class="btn key" onclick="document.calc.tex.value += '4'">4</spam>
+        <spam class="btn key" onclick="document.calc.tex.value += '5'">5</spam>
+        <spam class="btn key" onclick="document.calc.tex.value += '6'">6</spam>
+        <spam class="btn A" onclick="document.calc.tex.value += '+'">+</spam>
+
+        <spam class="btn key" onclick="document.calc.tex.value += '1'">1</spam>
+        <spam class="btn key" onclick="document.calc.tex.value += '2'">2</spam>
+        <spam class="btn key" onclick="document.calc.tex.value += '3'">3</spam>
+        <spam class="btn equal" onclick="document.calc.tex.value = eval(document.calc.tex.value)">=</spam>
+
+        <spam class="btn bel" onclick="document.calc.tex.value += '%'">%</spam>
+        <spam class="btn bel" onclick="document.calc.tex.value += '0'">0</spam>
+        <spam class="btn bel" onclick="document.calc.tex.value += '.'">.</spam>
+        <spam class="btn del" onclick="document.calc.tex.value = document.calc.tex.value.substring(0, document.calc.tex.value.length-1)">Del</spam>
+
+        <spam class="btn zero" onclick="document.calc.tex.value += '00'">00</spam>
+        <spam class="btn" onclick="document.calc.tex.value += '**'">²x</spam>
+    </form>
+</body>
+
+</html>

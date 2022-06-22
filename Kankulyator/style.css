@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    background: url("https://i.imgur.com/MUF3Gvv.jpg") center;
+}
+
+.Calculator {
+    position: absolute;
+    top: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    display: grid;
+    background: #800000;
+    border-top: 2px solid #008030;
+    border-left: 2px solid #007010;
+    border-bottom: 2px solid #004510;
+    border-right: 2px solid #006020;
+}
+
+.Calculator .Text {
+    grid-column: span 4;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    background: #66666670;
+    color: #ceafdb;
+    margin-bottom: 20px;
+}
+
+.Calculator spam {
+    display: grid;
+    text-align: center;
+    background: blue;
+    padding-top: 18px;
+    margin: 6px;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    place-item: center;
+}
+
+.Calculator spam:hover {
+    animation: buttons 2s 1;
+}
+
+@keyframes buttons {
+    0% {
+        color: black;
+        box-shadow: 0px 3px 2px 4px #ffffff;
+    }
+    25% {
+        color: #555555;
+    }
+    50% {
+        border-radius: 50px;
+    }
+}
+
+.Calculator spam.btn {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Calculator spam.equal {
+    grid-row: span 2;
+    height: 135px;
+    text-align: center;
+    padding-top: 50px;
+    background: #9999cf;
+}
+
+.Calculator spam.clear {
+    grid-column: span 2;
+    width: 135px;
+    text-align: center;
+    background-color: #fad000;
+}
+
+.Calculator spam.zero {
+    grid-column: span 2;
+    width: 135px;
+    text-align: center;
+    background-color: #4035ff;
+}
+
+.Calculator spam.key {
+    background: #b8255f;
+}
+
+.Calculator spam.bel {
+    background: #299438;
+}
+
+.Calculator spam.A {
+    background: #7a3000;
+}
+
+.Calculator spam.del {
+    background: #ff0050;
+}
