@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+.section {
+    width: 1080px;
+    margin: 0 auto;
+    border: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 320px;
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+.box1 {
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+.b-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    b {
+        font-size: 30px;
+    }
+    button {
+        width: 100px;
+        height: 50px;
+        background-color: green;
+        border-radius: 10px;
+    }
+}
