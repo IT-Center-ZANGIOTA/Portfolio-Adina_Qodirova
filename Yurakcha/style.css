@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+
+.ombhs-heart {
+    font-size: 100px;
+    color: #e00;
+    animation: swati .30s infinite alternate;
+    transform-origin: center;
+    margin: 50px;
+}
+
+@keyframes swati {
+    to {
+        transform: scale(1.4);
+    }
+}
+
+.swati {
+    max-width: 350px;
+    padding: 1rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient( to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+}
