@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bg_music {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 65px;
+}
+
+.note div:nth-child(1) {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 800;
+    left: 35px;
+    top: 50px;
+    animation: animate 2s linear infinite;
+}
+
+.note div:nth-child(2) {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 800;
+    right: 35px;
+    top: 50px;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    50% {
+        font-size: 20px;
+    }
+}
+
+.container {
+    background-color: #1B2840;
+    height: 310px;
+    width: 310px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30%;
+    border: 4px solid #C7AF65;
+    border-radius: 50%;
+    box-shadow: 0px -10px 15px #d400ff, 0px 10px 15px #0dff00, -10px 0px 15px #1615ff, 10px 0px 15px #ff1d00;
+}
+
+.container .cyclist {
+    width: 106px;
+    height: 50px;
+    background-image: linear-gradient(#FF6800 80px, transparent 0), linear-gradient(#FFEBD6 80px, transparent 0), linear-gradient(#FF6800 80px, transparent 0), linear-gradient(#FFEBD6 80px, transparent 0), radial-gradient(circle 13px, #FFEBD6 100%, transparent 0);
+    background-size: 50px 15px, 12px 35px, 15px 35px, 25px 15px, 28px 25px;
+    background-position: 25px 5px, 63px 19px, 25px 16px, 2px 37px, 76px 0px;
+    background-repeat: no-repeat;
+    position: relative;
+    transform: rotate(-45deg);
+}
+
+.cyclist::after,
+.cyclist::before {
+    content: "";
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    border-top: 6px solid #4AF554;
+    border-right: 6px solid #FFD74A;
+    border-bottom: 4px solid #FF4AB4;
+    border-left: 4px solid #4FA2FF;
+    border-radius: 50%;
+    left: -56px;
+    top: -17px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#FFE800 64px, transparent 0), linear-gradient(#FFE800 66px, transparent 0), radial-gradient(circle 4px, #FFE800 100%, transparent 0);
+    background-size: 40px 3px, 3px 40px, 8px 8px;
+    background-position: center center;
+    -webkit-animation: rotation 0.3s linear infinite;
+    animation: rotation 0.5s linear infinite;
+}
+
+.cyclist::before {
+    left: 25px;
+    top: 65px;
+}
+
+@-webkit-keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: .18px;
+    padding: 10px 0;
+}
+
+.Account {
+    width: 310px;
+    padding: 7px;
+    border-radius: 10px;
+    border: 2px solid #FFE8AA;
+    background-color: #000;
+}
+
+.Account a {
+    color: #FFE8AA;
+    display: block;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.Account:hover {
+    text-decoration: none;
+    transform: scale(.89);
+}
